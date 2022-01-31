@@ -11,7 +11,7 @@ export default class ApiStack extends sst.Stack {
 
     // Create the API
     this.api = new sst.Api(this, "Api", {
-      customDomain: scope.stage === "prod" ? "ahmedmmansour-serverless-note.com" : undefined,
+      customDomain: scope.stage === "prod" ? "dfhtyresascverwawscvgweassv3weerwefe.tk" : undefined,
       defaultAuthorizationType: "AWS_IAM",
       defaultFunctionProps: {
         environment: {
